@@ -1,14 +1,6 @@
-Приклад вводу:
-5
-messi 12
-Ronaldo 10
-yura 1
-kane 19
-ihor 4
+інструкція (shell macOS):
 
-де 5 - кількість гравців n
+clang++ -std=c++17 task1_v13.cpp -o task1
+printf "1 5 2  3 4 7\n" | ./task1
 
-запуск (macOS / Linux)
-
-clang++ task1_v3.cpp -o task1
-./task1
+printf - для того, щоб не вводити вручну, для тесту так простіше
