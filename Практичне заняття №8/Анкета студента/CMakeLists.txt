@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.16)
+project(student_form_2png)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_PREFIX_PATH "/opt/homebrew/opt/qt")
+find_package(Qt6 REQUIRED COMPONENTS Widgets)
+add_executable(student_form_2png main.cpp)
+target_link_libraries(student_form_2png Qt6::Widgets)

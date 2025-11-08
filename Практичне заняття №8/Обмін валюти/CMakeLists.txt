@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.16)
+project(currency_exchange)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_PREFIX_PATH "/opt/homebrew/opt/qt")
+find_package(Qt6 REQUIRED COMPONENTS Widgets)
+add_executable(currency_exchange main.cpp)
+target_link_libraries(currency_exchange Qt6::Widgets)
